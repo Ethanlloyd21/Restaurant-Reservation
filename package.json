@@ -1,0 +1,25 @@
+{
+  "name": "Restaurant-Reservation",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethanlloyd21/Restaurant-Reservation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethanlloyd21/Restaurant-Reservation/issues"
+  },
+  "homepage": "https://github.com/Ethanlloyd21/Restaurant-Reservation#readme"
+}
