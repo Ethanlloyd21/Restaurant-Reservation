@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 let tables = [
@@ -28,8 +28,15 @@ app.post('/api/tables', (req, res) => {
     } else {
         tables.push(newReservation);
     }
+
     console.log(newReservation);
     // tables.push(newReservation);
     res.json(newReservation);
+});
+
+app.post('/api/clear', (req, res) => {
+    tables = [];
+    waitList = [];
+    res.json(req.body);
 });
 app.listen(PORT, () => console.log('App listening on PORT ' + PORT));
