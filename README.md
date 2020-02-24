@@ -20,3 +20,6 @@ Basic app demonstrating Node and Express with jQuery. Overall purpose is to help
 
 - [Use ExpressJS to Get URL and POST Parameters](https://scotch.io/tutorials/use-expressjs-to-get-url-and-post-parameters)
 - [Build a RESTful API Using Node and Express 4](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4)
+
+## Author
+* Lloyd Marcelino, 2020
